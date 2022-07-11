@@ -1,0 +1,12 @@
+<div class="card mx-auto " style="width: 20rem;">
+    <div class="card-body text-center">
+        <h3 class="card-title" > Are you sure?</h3>
+        <p class="card-text"> Do you really want to delete the employee with id: {{id}} ?</p>
+        <div>
+            <button type="button" class="btn btn-secondary me-4 " (click)="returnToList()"> Cancel</button>
+            <button type="button" class="btn btn-danger"  (click)="deleteEmployee(id)"> Delete</button>
+        </div>
+        
+    </div>
+    
+</div>
